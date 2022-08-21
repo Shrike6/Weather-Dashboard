@@ -1,0 +1,13 @@
+header {
+    background-color: blue;
+    background-image: linear-gradient(to left, blue, blueviolet, purple);
+}
+
+aside {
+    height: 500px;
+    width: 200px;
+}
+
+hr {
+    border-top: solid gray;
+}
