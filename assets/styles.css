@@ -3,6 +3,10 @@ header {
     background-image: linear-gradient(to left, blue, blueviolet, purple);
 }
 
+main {
+    display: flex;
+}
+
 aside {
     height: 500px;
     width: 200px;
@@ -10,4 +14,9 @@ aside {
 
 hr {
     border-top: solid gray;
+}
+
+#currentWeather {
+    height: 400px;
+    width: 800px;
 }

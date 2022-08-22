@@ -14,18 +14,30 @@
         <h1 class="d-flex justify-content-center">Weather Dashboard</h1>
     </header>
     
-    <aside class="citySearcher m-3 border border-dark">
-        <h2>Search for a City:</h2>
-        <input type="text">
-        <button class="d-flex justify-content-center">Submit</button>
-        <hr>
-        <div class="history">
-            <ul class="cities">
+    <main>
+        <aside class="citySearcher m-3 border border-dark">
+            <h2>Search for a City:</h2>
+            <input type="text" class="">
+            <button id="submit" class="">Submit</button>
+            <hr>
+            <div class="history">
+                <ul class="cities">
 
+                </ul>
+            </div>
+        </aside>
+
+        <section id="currentWeather" class="m-3 border border-dark">
+            <h2>test</h2>
+            <ul>
+                <li id="temp"> </li>
+                <li id="wind"> </li>
+                <li id="humidity"> </li>
+                <li id="uvindex"> </li>
             </ul>
-        </div>
+        </section>
 
-    </aside>
+    </main>
     
 
     <script src="./assets/script.js"></script>    
