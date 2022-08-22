@@ -17,7 +17,7 @@ button.addEventListener('click', function(name)) {
     .then(data => {
       let tempValue = data['main']['temp'];
       let cityValue = data['name'];
-      let weatherValue = data['weather'][0]['description'];
+      let uv = data['weather'][0]['description'];
       let humidityValue = data['main']['humidity'];
       
       city.innerHTML = "weather at "+ cityValue;
